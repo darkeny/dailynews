@@ -25,7 +25,7 @@
     "@types/uuid": "^9.0.0"
   },
   "_moduleAliases": {
-    "^root": ".",
+    "^main": "./src",
     "^routers": "src/routers",
     "^utils": "src/util/index",
     "^components": "src/components/index",
