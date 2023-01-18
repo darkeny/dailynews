@@ -23,17 +23,17 @@
       "^main": [
         "src/types"
       ],
-      "^components": [
-        "src/components/index"
-      ],
-      "^utils": [
-        "src/util/index"
-      ],
+      // "^components": [
+      //   "src/components/index"
+      // ],
+      // "^utils": [
+      //   "src/util/index"
+      // ],
       "^routers": [
         "src/routers"
       ],
       "^modules/*": [
-        "src/modules/*"
+        "src/modules"
       ]
     }
   },
