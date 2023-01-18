@@ -3,3 +3,9 @@ export interface User {
     name: string
     email: string
 }
+
+export interface Newsletter {
+    id: string
+    tittle: string
+    content: string
+}
