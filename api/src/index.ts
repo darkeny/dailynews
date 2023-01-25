@@ -1,9 +1,8 @@
-
 import "module-alias/register"
 import express from 'express'
 import { router } from '^routers'
 import cors from 'cors'
-
+     
 const app = express()
 
 app.use(router)
