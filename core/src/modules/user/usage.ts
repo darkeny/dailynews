@@ -1,5 +1,7 @@
-export class GetNewsTime{
-    async run ():Promise<Date>{
-        return new Date(Date.now())
+import { Timezones } from "./factory";
+
+export class GetCountryTime {
+    async run(code: string): Promise<Timezones> {
+        return Timezones.of(code)
     }
 }

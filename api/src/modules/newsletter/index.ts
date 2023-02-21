@@ -1,2 +1,2 @@
 export * from '^main'
-export * from '^modules/newsletter/feed'
+// export * from '^modules/newsletter/feed'
