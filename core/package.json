@@ -2,6 +2,11 @@
   "name": "core",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "build": "tsup src/modules/user/index.ts",
+    "dev": "sucrase-node src/modules/user/index.ts",
+    "test": "tsx watch src/modules/user/index.ts"
+  },
   "license": "MIT",
   "dependencies": {
     "zod": "^3.20.2"
