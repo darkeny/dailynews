@@ -1,3 +1,3 @@
 export interface Timezone {
-    readonly time: Date
+    readonly time: string
 }

@@ -10,13 +10,14 @@ export abstract class Timezones {
         const offsetNumber = this.offset(code);
         const time = new Date(Date.now() + offsetNumber * 1000 * 60 * 60);
 
-        return new TimezoneImp(time);
+        return new TimezoneImp(time.getDate() + ":" + time.getMinutes() + ":" + time.getSeconds());
 
     }
+
 
 }
 class TimezoneImp implements Timezone {
     constructor(
-        readonly time: Date,
+        readonly time: string,
     ) { }
 }
