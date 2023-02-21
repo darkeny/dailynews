@@ -1,5 +1,5 @@
-export class GetNewsTime{
-    async run ():Promise<Date>{
-        return new Date(Date.now())
+export class GetCountryTime{
+    async run (code: string){
+        
     }
 }

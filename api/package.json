@@ -35,6 +35,6 @@
     "^routers": "src/routers",
     "^utils": "src/util/index",
     "^components": "src/components/index",
-    "^modules": "src/modules"
+    "^modules": "src/modules/feed.ts"
   }
 }

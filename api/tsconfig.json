@@ -32,8 +32,8 @@
       "^routers": [
         "src/routers"
       ],
-      "^modules/*": [
-        "src/modules"
+      "^modules": [
+        "src/modules/"
       ]
     }
   },
