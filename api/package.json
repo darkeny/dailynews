@@ -9,12 +9,12 @@
     "test": "sucrase-node src/test/index.test.ts"
   },
   "dependencies": {
-    "@prisma/client": "^4.9.0",
+    "@prisma/client": "^4.11.0",
     "axios": "^1.2.2",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "module-alias": "^2.2.2",
-    "prisma": "^4.8.1",
+    "prisma": "^4.11.0",
     "sucrase": "^3.29.0",
     "tsup": "^6.5.0",
     "typescript": "^4.9.4",
@@ -37,5 +37,4 @@
     "^components": "src/components/index",
     "^modules": "src/modules/feed.ts"
   }
-
 }
