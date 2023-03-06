@@ -10,6 +10,11 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+enum Role {
+  OWNER
+  BASIC
+}
+
 enum isVERIFIED {
   VERIFIED
   UNVERIFIED
@@ -19,14 +24,16 @@ model User {
   id         String       @id @default(uuid())
   name       String
   email      Email[]
+  role       Role         @default(BASIC)
   newsletter Newsletter[]
 }
 
 model Email {
-  id        String   @id @default(uuid())
-  address   String   @unique
-  createdAt DateTime @default(now())
-  User      User?    @relation(fields: [userId], references: [id])
+  id        String     @id @default(uuid())
+  address   String     @unique
+  verified  isVERIFIED @default(VERIFIED)
+  createdAt DateTime   @default(now())
+  User      User?      @relation(fields: [userId], references: [id])
   userId    String?
 }
 
@@ -37,7 +44,3 @@ model Newsletter {
   User    User?   @relation(fields: [userId], references: [id])
   userId  String?
 }
-
-
-
-
