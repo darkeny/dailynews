@@ -1,7 +1,8 @@
+import styled from "styled-components";
 const SignIn = () => {
     return (
         <>
-            <h1>Sign-in page</h1>
+            
         </>
     )
 }
