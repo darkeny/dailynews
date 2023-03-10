@@ -25,6 +25,8 @@ export const Content_Center = styled.div`
 `
 
 export const H1 = styled.h1`
+    margin-top: 5px;
+    margin-bottom: 5px;
     text-align: center;
 `
 export const Footer = styled.footer`
@@ -37,3 +39,12 @@ export const Paragraph = styled.p`
     color: #000;
     font-size: medium;
 `
+export const Form = styled.form`
+
+`
+
+export const Input = styled.input`
+
+`
+
+export const BreakLine = styled.br``
