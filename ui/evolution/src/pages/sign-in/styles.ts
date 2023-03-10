@@ -16,3 +16,24 @@ export const Button = styled.button`
     float: right !important;
     background-color: #0d6efd;
 `
+export const Content_Center = styled.div`
+    display: flex;
+    justify-content: columns;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+`
+
+export const H1 = styled.h1`
+    text-align: center;
+`
+export const Footer = styled.footer`
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+`
+export const Paragraph = styled.p`
+    font-size: 17px !important;
+    color: #000;
+    font-size: medium;
+`
