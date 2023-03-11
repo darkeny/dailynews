@@ -1,5 +1,4 @@
-import styled from "styled-components";
-import { BreakLine, Button, Container, Content_Center, Footer, Form, H1, Input, Paragraph } from "./styles";
+import { Button, Container, Content_Center, Footer, Form, H1, Input, Paragraph } from "./styles";
 const SignIn = () => {
     return (
         <>

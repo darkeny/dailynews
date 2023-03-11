@@ -25,6 +25,7 @@ export const Content_Center = styled.div`
 `
 
 export const H1 = styled.h1`
+display: block;
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
@@ -44,6 +45,7 @@ export const Form = styled.form`
 `
 
 export const Input = styled.input`
+display: block;
 
 `
 
