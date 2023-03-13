@@ -1,7 +1,9 @@
+import { } from 'styled-components'
+
 const Home = () => {
     return (
         <>
-            <h1>Hello World</h1>
+            <h1>Home page</h1>
         </>
     )
 }
