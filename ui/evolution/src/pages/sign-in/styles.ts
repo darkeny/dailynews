@@ -8,14 +8,7 @@ export const Container = styled.div`
     margin-right: auto;
     max-width: 1140px;
 `
-export const Button = styled.button`
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 0.5rem;
-    float: right !important;
-    background-color: #0d6efd;
-`
+
 export const Content_Center = styled.div`
     display: flex;
     justify-content: columns;
@@ -42,10 +35,11 @@ export const Paragraph = styled.p`
 `
 export const Form = styled.form`
 
+     
 `
 
 export const Input = styled.input`
-display: block;
+
 
 `
 

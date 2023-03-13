@@ -1,16 +1,13 @@
-import { Button, Container, Content_Center, Footer, Form, H1, Input, Paragraph } from "./styles";
+import { Container, Content_Center, Footer, Form, H1, Input, Paragraph } from "./styles";
 const SignIn = () => {
     return (
         <>
-            <Button>
-                Sign-up
-            </Button>
             <Container>
                 <Content_Center>
                     <H1>Sign-in</H1>
                     <Form action={'#'}>
-                        <Input type={'text'}>
-                        </Input>
+                        <Input type={'text'} name={'username'} required />
+                        <Input type={'password'} name={'password'} required />
                     </Form>
                 </Content_Center>
                 <Footer>
