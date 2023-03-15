@@ -1,11 +1,18 @@
-interface ButtonProps {
-    name: string;
+import { FC } from "react";
+import { Button as FCButton } from './styles'
+
+type buttonProps = {
+    label: string;
+    disabled?: boolean;
+    onClick: () => void;
 }
 
-const Button = () => {
+const Button: FC<buttonProps> = ({ label, disabled, onClick }) => {
     return (
         <>
-            
+            <FCButton onClick={onClick}>
+                {label}
+            </FCButton>
         </>
     )
 
