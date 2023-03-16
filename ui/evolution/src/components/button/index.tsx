@@ -10,7 +10,7 @@ type buttonProps = {
 const Button: FC<buttonProps> = ({ label, disabled, onClick }) => {
     return (
         <>
-            <FCButton onClick={onClick}>
+            <FCButton onClick={onClick} disabled={disabled}>
                 {label}
             </FCButton>
         </>
