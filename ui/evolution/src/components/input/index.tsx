@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { Input as FCInput } from './styles'
 
 type inputProps = {
     disabled: boolean;
@@ -7,7 +8,7 @@ type inputProps = {
 const Input: FC<inputProps> = ({ disabled }) => {
     return (
         <>
-        
+            <FCInput disabled={disabled}/>
         </>
     )
 }
