@@ -33,14 +33,5 @@ export const Paragraph = styled.p`
     color: #000;
     font-size: medium;
 `
-export const Form = styled.form`
-
-     
-`
-
-export const Input = styled.input`
-
-
-`
 
 export const BreakLine = styled.br``

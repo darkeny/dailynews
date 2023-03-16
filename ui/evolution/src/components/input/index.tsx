@@ -1,8 +1,13 @@
 import { FC } from "react";
 
-const Input = () => {
+type inputProps = {
+    disabled: boolean;
+}
+
+const Input: FC<inputProps> = ({ disabled }) => {
     return (
         <>
+        
         </>
     )
 }
