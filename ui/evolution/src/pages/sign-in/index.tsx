@@ -1,5 +1,6 @@
 import Button from "../../components/button";
-import { Container, Content_Center, Footer, H1, Paragraph } from "./styles";
+import Footer from "../../components/footer";
+import { Container, Content_Center, Footer_Side, H1, Paragraph } from "./styles";
 const SignIn = () => {
     function Headler() {
         console.log('Clicou')
@@ -11,9 +12,9 @@ const SignIn = () => {
                 <Content_Center>
                     <H1>Sign-in</H1>
                 </Content_Center>
-                <Footer>
-                    <Paragraph>@Copyright 2022 - 2023</Paragraph>
-                </Footer>
+            <Footer_Side>
+                <Footer label={'@Copyright 2022 - 2023'}/>
+            </Footer_Side>
             </Container>
         </>
     )

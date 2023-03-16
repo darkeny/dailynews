@@ -23,7 +23,7 @@ display: block;
     margin-bottom: 5px;
     text-align: center;
 `
-export const Footer = styled.footer`
+export const Footer_Side = styled.div`
     bottom: 0%;
     display: flex;
     justify-content: center;
@@ -33,5 +33,3 @@ export const Paragraph = styled.p`
     color: #000;
     font-size: medium;
 `
-
-export const BreakLine = styled.br``
