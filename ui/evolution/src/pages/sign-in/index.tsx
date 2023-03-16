@@ -1,5 +1,5 @@
 import Button from "../../components/button";
-import { Container, Content_Center, Footer, Form, H1, Input, Paragraph } from "./styles";
+import { Container, Content_Center, Footer, H1, Paragraph } from "./styles";
 const SignIn = () => {
     function Headler() {
         console.log('Clicou')
