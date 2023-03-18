@@ -23,3 +23,10 @@ class TimezoneImp implements Timezone {
     ) { }
 }
 
+export abstract class Currency {
+    public static quotes = {
+        USD: 63.2,
+        ZAR: 3.36,
+        EUR: 67.99
+    }
+}
