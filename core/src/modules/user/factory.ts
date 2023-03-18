@@ -1,4 +1,5 @@
 import { Timezone } from "./types";
+
 export abstract class Timezones {
 
     public static offset(code: string): number {
@@ -21,3 +22,4 @@ class TimezoneImp implements Timezone {
         readonly time: string,
     ) { }
 }
+
