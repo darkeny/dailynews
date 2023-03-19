@@ -29,4 +29,8 @@ export abstract class Currency {
         ZAR: 3.36,
         EUR: 67.99
     }
+
+    public static change(coin: number): Currency {
+        return coin * Currency.quotes.ZAR // o valor das quotes sera pegado dinamicamente
+    }
 }
