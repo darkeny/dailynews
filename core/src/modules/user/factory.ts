@@ -23,14 +23,14 @@ class TimezoneImp implements Timezone {
     ) { }
 }
 
-export abstract class Currency {
-    public static quotes = {
+export abstract class Exchange {
+    public static currency = {
         USD: 63.2,
         ZAR: 3.36,
         EUR: 67.99
     }
 
-    public static change(coin: number): Currency {
-        return coin * Currency.quotes.ZAR // o valor das quotes sera pegado dinamicamente
+    public static change(coin: number): Exchange {
+        return coin * Exchange.currency.ZAR // o valor das quotes sera pegado dinamicamente
     }
 }
