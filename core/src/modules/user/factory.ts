@@ -31,6 +31,6 @@ export abstract class Exchange {
     }
 
     public static change(coin: number): Exchange {
-        return coin * Exchange.currency.ZAR // o valor das quotes sera pegado dinamicamente
+        return coin * Exchange.currency.EUR // o valor das quotes sera pegado dinamicamente
     }
 }

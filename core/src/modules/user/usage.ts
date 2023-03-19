@@ -9,6 +9,6 @@ export class GetCountryTime {
 export class GetCurrencyChanged {
     async run(coin: number): Promise<Exchange> {
         if (coin <= 0) return 0;
-        return Exchange.change
+        return Exchange.change(coin)
     }
 }
